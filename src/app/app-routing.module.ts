@@ -3,7 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { CadastroClientesComponent } from './views/clientes/cadastro-clientes/cadastro-clientes.component';
 
 const routes: Routes = [
-  {path: 'cadastro-cliente', component: CadastroClientesComponent}
+  {path: 'cadastro-cliente', component: CadastroClientesComponent},
+  {path: 'cadastro-cliente/:id', component: CadastroClientesComponent},
 ];
 
 @NgModule({
