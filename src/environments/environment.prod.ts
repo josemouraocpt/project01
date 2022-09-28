@@ -1,5 +1,5 @@
 export const environment = {
-  url: "https://chatcolab.firebaseio.com/crud/",
+  url: "https://app-projeto-01-default-rtdb.firebaseio.com/",
   app: "appproj01web",
   production: true
 };

@@ -31,7 +31,8 @@ export class AppComponent implements OnInit{
   public deletaCliente(id: string){
     const observable = this.clienteService.delete(id);
     observable.subscribe(c => {
-      console.log("Cliente deletado" + c);
+      console.log("Cliente deletado " + c);
+      this.getClientes();
     })
   } 
 

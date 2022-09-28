@@ -1,9 +1,8 @@
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
-
 export const environment = {
-  url: "https://chatcolab.firebaseio.com/crud/",
+  url: "https://app-projeto-01-default-rtdb.firebaseio.com/",
   app: "appproj01web",
   production: false
 };
